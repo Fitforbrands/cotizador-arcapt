@@ -97,9 +97,10 @@ input#ancho {
 
 .boton-calcular {
   font-family: "Cinzel", serif;
-  background-color: #ffffff;
-  color: #000000;
-  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  border-width: 1px;
+  border-color: #bb2424;
   font-size: 25px;
   padding: 15px 20px;
   margin-top: 20px;
@@ -111,7 +112,7 @@ input#ancho {
 }
 
 .boton-calcular:hover {
-  background-color: #000000;
+  background-color: #232323;
   color: #ffffff;
 }
 

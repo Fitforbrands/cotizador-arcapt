@@ -47,9 +47,10 @@ input[type="text"] {
 
 button {
   font-size: 25px;
-  background-color: #fff; /* Fondo blanco para el botón */
-  color: #000; /* Letras en negro para el botón */
-  border: none;
+  background-color: black; /* Fondo blanco para el botón */
+  color: white; /* Letras en negro para el botón */
+  border-width: 1px;
+  border-color: #bb2424;
   cursor: pointer;
   border-radius: 4px;
   transition: background-color 0.3s ease;
@@ -58,7 +59,7 @@ button {
 }
 
 button:hover {
-  background-color: #ddd; /* Cambio de color al pasar el cursor */
+  background-color: #232323; /* Cambio de color al pasar el cursor */
 }
 
 #resultadoCotizacion {

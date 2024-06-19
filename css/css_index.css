@@ -35,9 +35,10 @@ h1 {
 }
 
 button {
-  background-color: #fff;
-  color: #000;
-  border: none;
+  background-color: black;
+  color: #ffffff;
+  border-width: 1px;
+  border-color: #bb2424;
   padding: 10px 20px;
   border-radius: 4px;
   cursor: pointer;
@@ -47,7 +48,7 @@ button {
 }
 
 button:hover {
-  background-color: #000;
+  background-color: #232323;
   color: white;
   font-weight: bold; /* Texto en negrita para el botón */
 }

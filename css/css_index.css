@@ -7,11 +7,6 @@ body {
   padding: 20px;
 }
 
-.logo {
-  width: 250px;
-  border-radius: 5px;
-}
-
 h1 {
   color: #fff;
 }
@@ -48,9 +43,11 @@ button {
   cursor: pointer;
   font-size: 25px;
   font-family: "Cinzel", serif;
+  font-weight: bold; /* Texto en negrita para el botón */
 }
 
 button:hover {
   background-color: #000;
   color: white;
+  font-weight: bold; /* Texto en negrita para el botón */
 }

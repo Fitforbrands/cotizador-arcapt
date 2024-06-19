@@ -42,6 +42,7 @@ input[type="text"] {
   width: 100%; /* Ancho completo para los inputs y selects */
   box-sizing: border-box; /* Incluir padding y border en el ancho */
   margin: 10px auto; /* Margen automático para centrar */
+  font-weight: bold; /* Texto en negrita para el botón */
 }
 
 button {
@@ -53,6 +54,7 @@ button {
   border-radius: 4px;
   transition: background-color 0.3s ease;
   padding: 10px 20px; /* Ajustar el padding para un tamaño adecuado */
+  font-weight: bold; /* Texto en negrita para el botón */
 }
 
 button:hover {

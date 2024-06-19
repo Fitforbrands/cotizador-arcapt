@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lettering Tattoo</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/css_lettering.css" />
+    <script defer src="../js/lettering.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Lettering Tattoo</h1>
+      <form onsubmit="return false;">
+        <div class="tipo-selector">
+          <label>
+            <input type="radio" name="tipo" value="no_serif" checked />
+            <img
+              src="https://www.shutterstock.com/image-vector/neon-linear-tube-font-uppercase-260nw-1289828731.jpg"
+              alt="Tipografía no serif"
+            />
+            <br />
+            Tipografía no serif
+          </label>
+          <label>
+            <input type="radio" name="tipo" value="serif" />
+            <img
+              src="https://us.123rf.com/450wm/melazerg/melazerg1802/melazerg180200035/96428533-fuente-de-vector-g%C3%B3tico-blackletter-letras-minusculas.jpg"
+              alt="Tipografía serif"
+            />
+            <br />
+            Tipografía serif
+          </label>
+        </div>
+        <br /><br />
+        <label for="ancho">Ancho del tatuaje (cm):</label>
+        <input type="number" id="ancho" min="1" required />
+        <br /><br />
+        <label for="alto">Alto del tatuaje (cm):</label>
+        <input type="number" id="alto" min="1" required />
+        <br /><br />
+        <button onclick="cotizar()">Cotizar</button>
+      </form>
+      <div id="resultado"></div>
+    </div>
+  </body>
+</html>

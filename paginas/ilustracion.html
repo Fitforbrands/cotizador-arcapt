@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/css_ilustracion.css" />
+    <script defer src="../js/ilustracion.js"></script>
+    <title>Tattoo ilustrado</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tattoo ilustrados</h1>
+
+      <div class="opciones-tatuajes" id="opciones-tatuajes">
+        <div class="opcion-tatuaje">
+          <label for="micro-tattoo">
+            <input
+              type="radio"
+              id="micro-tattoo"
+              name="tipoDibujo"
+              value="Micro tattoo"
+              checked
+            />
+            <img
+              src="https://i.pinimg.com/originals/b1/d8/a9/b1d8a94840cd36e4741d817f5cf92f7f.jpg"
+              alt="Micro tattoo"
+            />
+            <span>Micro tattoo</span>
+          </label>
+        </div>
+
+        <div class="opcion-tatuaje">
+          <label for="lineal-con-relleno">
+            <input
+              type="radio"
+              id="lineal-con-relleno"
+              name="tipoDibujo"
+              value="Lineal con relleno sin sombra"
+            />
+            <img
+              src="https://logiabarcelona.com/wp-content/uploads/2018/12/tatuaje_pecho_retrato_Logia_Barcelona_Jas.jpg"
+              alt="Lineal con relleno sin sombra"
+            />
+            <span>Lineal con relleno sin sombra</span>
+          </label>
+        </div>
+
+        <div class="opcion-tatuaje">
+          <label for="lineal-sin-relleno">
+            <input
+              type="radio"
+              id="lineal-sin-relleno"
+              name="tipoDibujo"
+              value="Lineal sin relleno"
+            />
+            <img
+              src="https://i1.wp.com/64.media.tumblr.com/a120775eb2f2b38515068b849b0cf5cb/ab78634e43892401-07/s1280x1920/091758bb3592cf104ed94c12f5b0c51b65b7e560.jpg"
+              alt="Lineal sin relleno"
+            />
+            <span>Lineal sin relleno</span>
+          </label>
+        </div>
+
+        <div class="opcion-tatuaje">
+          <label for="con-sombra">
+            <input
+              type="radio"
+              id="con-sombra"
+              name="tipoDibujo"
+              value="Con Sombra"
+            />
+            <img
+              src="https://logiabarcelona.com/wp-content/uploads/2018/12/tatuaje_pecho_retrato_Logia_Barcelona_Jas.jpg"
+              alt="Con Sombra"
+            />
+            <span>Con Sombra</span>
+          </label>
+        </div>
+
+        <div class="opcion-tatuaje">
+          <label for="dibujo-letras">
+            <input
+              type="radio"
+              id="dibujo-letras"
+              name="tipoDibujo"
+              value="Dibujo y Letras"
+            />
+            <img
+              src="https://i1.wp.com/64.media.tumblr.com/a120775eb2f2b38515068b849b0cf5cb/ab78634e43892401-07/s1280x1920/091758bb3592cf104ed94c12f5b0c51b65b7e560.jpg"
+            />
+            <span>Dibujo y Letras</span>
+          </label>
+        </div>
+
+        <div class="opcion-tatuaje">
+          <label for="realismo">
+            <input
+              type="radio"
+              id="realismo"
+              name="tipoDibujo"
+              value="Realismo"
+            />
+            <img
+              src="https://logiabarcelona.com/wp-content/uploads/2018/12/tatuaje_pecho_retrato_Logia_Barcelona_Jas.jpg"
+              alt="Realismo"
+            />
+            <span>Realismo</span>
+          </label>
+        </div>
+      </div>
+
+      <h2>Ingresa la medida</h2>
+      <div class="formulario" id="formulario">
+        <label for="alto">Alto (cm):</label>
+        <input type="number" id="alto" min="1" step="1" />
+
+        <label for="ancho">Ancho (cm):</label>
+        <input type="number" id="ancho" min="1" step="1" />
+
+        <button class="boton-calcular" onclick="calcularPrecio()">
+          Calcular Precio
+        </button>
+      </div>
+
+      <div id="resultado"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/css_especiales.css" />
+    <script defer src="../js/especiales.js"></script>
+    <title>Tattoo especiales</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tatuajes Especiales</h1>
+      <form id="cotizadorForm">
+        <label for="zonaTatuar">Zona a tatuar:</label>
+        <select id="zonaTatuar" name="zonaTatuar">
+          <option value="Todo el brazo">Todo el brazo</option>
+          <option value="Medio Brazo">Medio Brazo</option>
+          <option value="Pierna entera">Pierna entera</option>
+          <option value="Media Pierna">Media Pierna</option>
+          <option value="Cara ext brazo">Cara ext brazo</option>
+          <option value="Brazalete">Brazalete</option>
+        </select>
+
+        <label for="tipoSesion">Tipo de sesión:</label>
+        <select id="tipoSesion" name="tipoSesion">
+          <option value="Chica">Chica ( 3 Hs )</option>
+          <option value="Grande">Grande ( 6 Hs )</option>
+        </select>
+
+        <button type="button" onclick="calcularCotizacion()">Cotizar</button>
+      </form>
+
+      <div id="resultadoCotizacion">
+        <!-- Aquí se mostrará el resultado de la cotización -->
+      </div>
+    </div>
+  </body>
+</html>

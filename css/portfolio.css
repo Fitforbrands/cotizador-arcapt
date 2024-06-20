@@ -38,7 +38,7 @@ body {
 
 .f4b-fotos {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: 40px;
@@ -68,4 +68,11 @@ body {
   border-color: #bb2424;
   border-style: solid;
   border-width: 1px;
+}
+
+@media (max-width: 700px) {
+  .f4b-fotos {
+    display: flex;
+    flex-direction: column;
+  }
 }

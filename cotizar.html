@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/css_index.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <script defer src="./js/index.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cotizador Tattoo</title>
+  </head>
+  <body>
+    <div class="button-container">
+      <a href=""><img class="logo" src="./img/logo-blanco.png" alt="" /></a>
+
+      <h1>Seleccioná tu estilo de Tattoo para cotizar</h1>
+      <div class="button-section">
+        <p>
+          El estilo de letras incluye todo tipo de palabras, distinguimos entre
+          letras con serif y no serif, debido a que las serif llevan mucho mas
+          detalle.
+        </p>
+        <button onclick="navigateTo('./paginas/lettering.html')">
+          Lettering
+        </button>
+      </div>
+
+      <div class="button-section">
+        <p>
+          Los tatuajes ilustrados son dibujos de linea que pueden tener
+          opcionalmente sombra o relleno, a veces combinados con palabras y
+          finalmente estan los realistas.
+        </p>
+        <button onclick="navigateTo('./paginas/ilustracion.html')">
+          Ilustracion
+        </button>
+      </div>
+
+      <div class="button-section">
+        <p>
+          Los tattoo especiales con las mangas, brazaletes, brazo o pierna
+          completos, son especiales porque se trabaja por sesiones de 3 o de 6
+          horas.
+        </p>
+        <button onclick="navigateTo('./paginas/especiales.html')">
+          Especiales
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -47,3 +47,25 @@ body {
 .f4b-fotos img {
   padding: 10px;
 }
+
+.f4b-boton-cotizar {
+  width: 250px;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #bb2424;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 0 20px 0;
+  padding: 10px 0 5px 0;
+  font-family: "Cinzel", serif; /* Aplicar la fuente Cinzel al botón */
+  font-size: 25px; /* Tamaño de fuente para el botón */
+  font-weight: bold; /* Texto en negrita para el botón */
+}
+
+.f4b-boton-cotizar:hover {
+  background-color: #232323; /* Color de fondo al pasar el cursor sobre el botón */
+  border-color: #bb2424;
+  border-style: solid;
+  border-width: 1px;
+}
